@@ -1,3 +1,9 @@
 .env
 /node_modules/
 vendor/
+# Keystore de assinatura Android - NUNCA versionar
+*.jks
+*.keystore
+
+# Credenciais OAuth descarregadas do Google Cloud
+client_secret_*.json
